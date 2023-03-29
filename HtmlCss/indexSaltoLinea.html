@@ -21,12 +21,17 @@
         <a href="#parrafo-2">Párrafo 2</a>
         <a href="#parrafo-3">Párrafo 3</a>
         <a href="#parrafo-4">Párrafo 4</a>
-        <p></p>
+        <!--Salto de linea-->
+        <br>
+        <br>
 
         <img  src="https://bit.ly/fcc-relaxing-cat" alt="Un lingo gato naranja recostado sobre su espalda">
-        <p></p>
+        <br>
         <img src="images/cat.jpg" alt="Lasaña">
-     
+        
+        <!--Horizontal line-->
+        <hr>
+
         <h3>Listas de Gatos</h3>
         <p>
             <!-- <em> para cursivas <em/> -->
@@ -45,8 +50,11 @@
         </ul>
 
         <img  src="images/lasaña.jpg" alt="Una rica lasaña para un lindo gato.">
-        <p></p>
+        <br>
 
+        <!--Horizontal line-->
+        <hr>
+        
         <p>
             <!-- <strong> para negritas <strong/> -->
             Cosas que los gatos <strong>odian</strong>:
@@ -60,7 +68,25 @@
         </ol>
 
         <img  src="images/gatos.jpg" alt="Una rica lasaña para un lindo gato.">
-        <p></p>
+        <br>
+
+      <!-- Caracteristicas y caracteres en el input text-->
+      <form action="/enviar-respuesta">
+
+        <!-- Caracteristicas y caracteres en el input ratio-->
+        <!-- for conecta la opcion a la etiqueta-->
+        <!-- con el atributo main creamos un grupo de elementos ratio
+        asi solo uno de ese grupo se podra seleccionar-->
+        <label for="interior"><input id="interior" type="radio" name="interior-exterior"> Interiores</label>
+        <label for="exterior"><input type="radio" id="exterior" name="interior-exterior"> Exteriores</label>
+        <br>
+        <br>
+
+        <input type="text" placeholder="URL de la foto de tu gato" required>
+        <button type="submit">Enviar</button>
+        <br>
+        <br>
+      </form>
 
     </main>
   </body>

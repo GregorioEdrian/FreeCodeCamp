@@ -26,7 +26,10 @@
         <img  src="https://bit.ly/fcc-relaxing-cat" alt="Un lingo gato naranja recostado sobre su espalda">
         <p></p>
         <img src="images/cat.jpg" alt="Lasaña">
-     
+        
+        <!--Horizontal line-->
+        <hr>
+
         <h3>Listas de Gatos</h3>
         <p>
             <!-- <em> para cursivas <em/> -->
@@ -47,6 +50,9 @@
         <img  src="images/lasaña.jpg" alt="Una rica lasaña para un lindo gato.">
         <p></p>
 
+        <!--Horizontal line-->
+        <hr>
+        
         <p>
             <!-- <strong> para negritas <strong/> -->
             Cosas que los gatos <strong>odian</strong>:
@@ -61,6 +67,20 @@
 
         <img  src="images/gatos.jpg" alt="Una rica lasaña para un lindo gato.">
         <p></p>
+
+      <!-- Caracteristicas y caracteres en el input text-->
+      <form action="/enviar-respuesta">
+
+        <!-- Caracteristicas y caracteres en el input ratio-->
+        <!-- for conecta la opcion a la etiqueta-->
+        <!-- con el atributo main creamos un grupo de elementos ratio
+        asi solo uno de ese grupo se podra seleccionar-->
+        <label for="interior"><input id="interior" type="radio" name="interior-exterior"> Interiores</label>
+        <label for="exterior"><input type="radio" id="exterior" name="interior-exterior"> Exteriores</label>
+
+        <input type="text" placeholder="URL de la foto de tu gato" required>
+        <button type="submit">Enviar</button>
+      </form>
 
     </main>
   </body>
