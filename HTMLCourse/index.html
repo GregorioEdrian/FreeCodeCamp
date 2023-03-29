@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!--lan="es" especifica el idioma de la pagina-->
+<html lang="es">
+
+<head>
+    <!--Head contiene los metadatos-->
+    <title>AppDeGatos</title>
+</head>
+
+<body>
+    <h2>AppDeGatos</h2>
+
+    <main>
+
+        <h3>Imágenes de Gatos:</h3>
+        <!--Parrafos p--> <!-- <a> para agregar enlaces -->
+        <!--href es el enlace al que redireccionara.
+        rel:"nooper noreferrer" nos permite prevenir un ataque  Tabnabbing-->
+        <p>Haz click aquí para ver más <a href="https://www.freecodecamp.org/espanol/" target="_blank"
+                rel="noopener noreferrer">imágenes de gatos.</a>
+        </p>
+
+        <a href="#parrafo-1">Párrafo 1</a>
+        <a href="#parrafo-2">Párrafo 2</a>
+        <a href="#parrafo-3">Párrafo 3</a>
+        <a href="#parrafo-4">Párrafo 4</a>
+        <!--Salto de linea-->
+        <br>
+        <br>
+
+        <img src="https://bit.ly/fcc-relaxing-cat" alt="Un lingo gato naranja recostado sobre su espalda">
+        <br>
+        <img src="images/cat.jpg" alt="Lasaña">
+
+        <!--Horizontal line-->
+        <hr>
+
+        <h3>Listas de Gatos</h3>
+
+        <!-- Los div son contenedores que nos permiten crear estructuras mas complejas, 
+        nos permiten agregar caracteristicas aplicaremos con  css 
+        las caracteristicas-->
+
+        <div>
+            <p>
+                <!-- <em> para cursivas <em/> -->
+                Cosas que los gatos <em>aman</em>:
+
+            </p>
+
+            <!--Para usar listas no ordenadas usamos <ul><ul/> ul significa
+            unordered List-->
+            <ul>
+                <!--li = list item-->
+                <li>Menta gatuna</li>
+                <li>Apuntadores Láser</li>
+                <!-- <em> para cursivas <em/> -->
+                <li> <s>Lasaña</s> </li>
+            </ul>
+
+            <img src="images/lasaña.jpg" alt="Una rica lasaña para un lindo gato.">
+            <br>
+
+            <!--Horizontal line-->
+            <hr>
+
+            <p>
+                <!-- <strong> para negritas <strong/> -->
+                Cosas que los gatos <strong>odian</strong>:
+            </p>
+
+            <!--Para usar listas  ordenadas usamos <ol><ol/> ol significa
+            ordered List-->
+            <ol>
+                <li>Tratamiento antipulgas</li>
+                <li>Truenos</li>
+                <li>Otros gatos</li>
+            </ol>
+        </div>
+
+
+
+        <img src="images/gatos.jpg" alt="varios gatos.">
+        <br>
+
+        <!-- Caracteristicas y caracteres en el input text-->
+        <form action="/enviar-respuesta">
+
+            <!-- Caracteristicas y caracteres en el input ratio-->
+            <!-- for conecta la opcion a la etiqueta-->
+            <!-- con el atributo main creamos un grupo de elementos ratio
+        asi solo uno de ese grupo se podra seleccionar-->
+            <label for="interior">
+                <input id="interior" value="interior" type="radio" name="interior-exterior" checked> Interiores
+            </label>
+
+            <label for="exterior">
+                <input type="radio" value="exterior" id="exterior" name="interior-exterior"> Exteriores
+            </label>
+            <br>
+            <br>
+
+            <!--Casillas de verificacion-->
+            <!--los atributos funcionan de forma analoga, el atributo
+        check lo que hace es seleccionar una casilla por defecto-->
+            <!--el atributo value nos permite enviar al server que 
+            casilla esta seleccionada del grupo-->
+            <label for="carinoso">
+                <input id="carinoso" value="cariñoso" type="checkbox" name="personalidad" checked>Caiñoso
+            </label>
+
+            <label for="peresoso">
+                <input id="peresoso" value="peresoso" type="checkbox" name="personalidad">Peresoso
+            </label>
+
+            <label for="energico">
+                <input id="energico" value="energico" type="checkbox" name="personalidad">Enérgico
+            </label>
+
+
+            <br>
+            <br>
+            <input type="text" placeholder="URL de la foto de tu gato" required>
+            <button type="submit">Enviar</button>
+            <br>
+            <br>
+        </form>
+
+    </main>
+
+    <footer>
+        <p>
+            <small>
+                Sin derechos de Autor - <a href="https://www.freecodecamp.org/" 
+            target="_blank" rel="noopener noreferrer" >freeCodeCamp.org</a>
+            </small>            
+        </p>
+    </footer>
+
+</body>
+
+</html>

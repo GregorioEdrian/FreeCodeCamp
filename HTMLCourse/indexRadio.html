@@ -65,11 +65,19 @@
             <li>Otros gatos</li>
         </ol>
 
-        <img  src="images/gatos.jpg" alt="Una rica lasaña para un lindo gato.">
+        <img  src="images/gatos.jpg" alt="varios gatos.">
         <p></p>
 
-      <!-- Caracteristicas y caracteres en el input -->
+      <!-- Caracteristicas y caracteres en el input text-->
       <form action="/enviar-respuesta">
+
+        <!-- Caracteristicas y caracteres en el input ratio-->
+        <!-- for conecta la opcion a la etiqueta-->
+        <!-- con el atributo main creamos un grupo de elementos ratio
+        asi solo uno de ese grupo se podra seleccionar-->
+        <label for="interior"><input id="interior" type="radio" name="interior-exterior"> Interiores</label>
+        <label for="exterior"><input type="radio" id="exterior" name="interior-exterior"> Exteriores</label>
+
         <input type="text" placeholder="URL de la foto de tu gato" required>
         <button type="submit">Enviar</button>
       </form>

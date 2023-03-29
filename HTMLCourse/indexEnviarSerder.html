@@ -21,10 +21,12 @@
         <a href="#parrafo-2">Párrafo 2</a>
         <a href="#parrafo-3">Párrafo 3</a>
         <a href="#parrafo-4">Párrafo 4</a>
-        <p></p>
+        <!--Salto de linea-->
+        <br>
+        <br>
 
         <img  src="https://bit.ly/fcc-relaxing-cat" alt="Un lingo gato naranja recostado sobre su espalda">
-        <p></p>
+        <br>
         <img src="images/cat.jpg" alt="Lasaña">
         
         <!--Horizontal line-->
@@ -48,7 +50,7 @@
         </ul>
 
         <img  src="images/lasaña.jpg" alt="Una rica lasaña para un lindo gato.">
-        <p></p>
+        <br>
 
         <!--Horizontal line-->
         <hr>
@@ -65,8 +67,8 @@
             <li>Otros gatos</li>
         </ol>
 
-        <img  src="images/gatos.jpg" alt="Una rica lasaña para un lindo gato.">
-        <p></p>
+        <img  src="images/gatos.jpg" alt="varios gatos.">
+        <br>
 
       <!-- Caracteristicas y caracteres en el input text-->
       <form action="/enviar-respuesta">
@@ -75,11 +77,40 @@
         <!-- for conecta la opcion a la etiqueta-->
         <!-- con el atributo main creamos un grupo de elementos ratio
         asi solo uno de ese grupo se podra seleccionar-->
-        <label for="interior"><input id="interior" type="radio" name="interior-exterior"> Interiores</label>
-        <label for="exterior"><input type="radio" id="exterior" name="interior-exterior"> Exteriores</label>
+        <label for="interior">
+            <input id="interior" value="interior" type="radio" name="interior-exterior" checked> Interiores
+        </label>
+        
+        <label for="exterior">
+            <input type="radio" value="exterior" id="exterior" name="interior-exterior"> Exteriores
+        </label>
+        <br>
+        <br>
 
+        <!--Casillas de verificacion-->
+        <!--los atributos funcionan de forma analoga, el atributo
+        check lo que hace es seleccionar una casilla por defecto-->
+        <!--el atributo value nos permite enviar al server que 
+            casilla esta seleccionada del grupo-->
+        <label for="carinoso">
+            <input id="carinoso" value="cariñoso" type="checkbox" name="personalidad" checked>Caiñoso
+        </label>       
+
+        <label for="peresoso">
+            <input id="peresoso" value="peresoso" type="checkbox" name="personalidad" >Peresoso
+        </label>        
+
+        <label for="energico">
+            <input id="energico" value="energico" type="checkbox" name="personalidad" >Enérgico
+        </label>
+        
+
+        <br>
+        <br>
         <input type="text" placeholder="URL de la foto de tu gato" required>
         <button type="submit">Enviar</button>
+        <br>
+        <br>
       </form>
 
     </main>
