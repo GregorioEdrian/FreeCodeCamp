@@ -1,0 +1,14 @@
+div {
+    background-color: crimson;
+
+}
+
+img {
+    padding: 15px;
+    background-color: yellow;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+/*padding a cada lado */
