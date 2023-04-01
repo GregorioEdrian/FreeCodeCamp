@@ -1,0 +1,16 @@
+/*.imagen-gato {
+    width: 200px;
+    border-width: 3px;
+    border-color: blue;
+    border-style: solid dashed double dotted;
+
+}
+*/
+
+/*.bordes-redondeados*/
+.imagen-gato {
+    /*un circulo si la imagen es cuadrada border-radius: 50%;*/
+    /*border circuñar a la imagenes border-radius: 50px;*/
+    border-radius: 50px;
+
+}
