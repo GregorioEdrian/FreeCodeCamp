@@ -1,0 +1,21 @@
+/* 0-9 A-F Hexadecimal Code Example #000000 */
+
+/* # 00   00    00
+    Rojo verde Azul
+*/
+
+/*
+#titulo {
+    background-color: #7e76ea;
+}
+*/
+
+/* tambien se puede abreviar a tres digitos el codigo hexadesimal, si los digitos de un par son iguales, se puede abreviar usando un solo digito en lugar de copiar ambos repetidos, ejemplo #00ff00 = #0f0*/
+
+
+
+#titulo {
+    background-color: #0ff;
+}
+
+

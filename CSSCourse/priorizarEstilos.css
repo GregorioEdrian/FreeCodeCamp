@@ -1,0 +1,32 @@
+/* La ultima clase es la que tiene prioridad */
+
+
+.texto-morado {
+    color: purple;
+}
+
+#titulo {
+    color: brown;
+}
+
+.texto-azul {
+    color: blue;
+}
+
+
+/* la clase tiene precedencia por encima del selector general  en css, así no importa el orden*/
+a {
+    text-decoration: purple wavy underline;
+}
+
+
+.sin-subrayado {
+    text-decoration: none;
+}
+
+/* Los id tienen prioridad sobre las clases */
+
+#enlace-principal {
+    color: green;
+    text-decoration: green wavy underline;
+}

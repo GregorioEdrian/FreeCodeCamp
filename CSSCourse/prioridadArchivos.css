@@ -1,0 +1,10 @@
+
+/* La prioridad es para el archivo html, estilo en linea tiene priorida, auque hay una forma de cambiar ese comportamiento, agregamos !importtant en estilo css y así tendra prioridad sobre los demas estilos */
+
+.texto-azul {
+    color: blue !important;
+}
+
+#titulo {
+    color: black;
+}

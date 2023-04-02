@@ -1,0 +1,13 @@
+/* Valores RGB para colores */
+
+/*
+#titulo {
+    background-color: rgb(126, 118, 234);
+}
+*/
+
+/* Valores RGBA para colores con un cuarto componente, el cual da la transparencia */
+
+#titulo {
+    background-color: rgb(126, 118, 234, 0.50);
+}
